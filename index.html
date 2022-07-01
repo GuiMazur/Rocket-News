@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main id="main">
+        <header id="logo">
+            <img src=".\assets\logo.png" alt="Logo">Portal dos Patos
+        </header>
+        <article id="article">
+            <h2>Você também é um fanático por patos?</h2>
+            <b>Aqui você fica por dentro de todas as notícias sobre patos da sua região</b>
+            <p>Instruções para adoção, como cuidar e fofocas do mundo dos patos famosos você só encontra aqui</p>
+        </article>
+        <form id="form" onSubmit="subscribe(this)">
+            <label for="subscript">Insira seu e-mail:</label>
+            <div id="sendbox">
+                <input type="email" name="email" id="email" placeholder="amantedepatos@gmail.com">
+                <button id="subscript" type="submit">
+                    <img src=".\assets\send.svg" alt="">
+                </button>
+            </div>
+        </form>
+        <button id="more">
+            Ver Mais <img id="arrow-right" src=".\assets\arrow-right.svg">
+        </button>
+    </main>
+    <aside id="img">
+        <img src="assets/read_news.jpg" alt="">
+    </aside>
+    <script src=".\script.js"></script>
+</body>
+</html>
